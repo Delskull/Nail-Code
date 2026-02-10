@@ -1,10 +1,12 @@
 import './App.css'
 import Header from './ui/Header/Header'
+import Hero from './ui/hero/Hero'
 
 function App() {
   return (
-    <div className='min-w-screen'> 
+    <div> 
       <Header/>
+      <Hero/>
     </div>
   )
 }
