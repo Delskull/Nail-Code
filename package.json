@@ -7,7 +7,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,md,json}\"",
+  "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,css,md,json}\"",
+  "format:all": "prettier --write .",
+  "lint:fix": "eslint . --fix",
+  "lint:check": "eslint .",
+  "code:fix": "npm run format && npm run lint:fix"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
