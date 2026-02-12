@@ -1,7 +1,7 @@
 function Header() {
   const colorNav = `-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-black hover:bg-[#FCF8EF]/80`;
   return (
-    <div className="min-h-25 flex items-center justify-between px-4">
+    <div className="min-h-25 flex items-center justify-between px-4 sticky top-0 bg-white/90 backdrop-blur-sm z-40">
       <h1 className={colorNav}>Nail Code</h1>
       <nav>
         <ul className="flex w-100 justify-between">

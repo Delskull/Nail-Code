@@ -1,12 +1,13 @@
 import icon1 from "../../assets/svg/031.svg";
 import icon2 from "../../assets/svg/061.svg";
 import icon3 from "../../assets/svg/female-hand-with-glitter-beige-nail-design-female-hand-hold-dry-autumn-flower-woman-hand-beige-fabric-background 2.svg";
-
+import icon4 from "../../assets/img/MaskGroup.png";
 function Hero() {
   const img = [
     { src: icon1, alt: "img" },
     { src: icon2, alt: "img" },
     { src: icon3, alt: "img" },
+    { src: icon4, alt: "img" },
   ];
 
   return (
@@ -43,6 +44,9 @@ function Hero() {
           <h2 className="text-xl font-semibold text-white">Идеальный маникюр</h2>
           <h3 className="text-lg text-white/90 mt-1">Онлайн запись за 2 минуты</h3>
         </div>
+      </div>
+      <div >
+        <img src={img[3].src} alt="img" className="absolute w-2/3 h-2/3 object-contain z-15 top-150 left-1/2 -translate-x-1/2 -translate-y-1/2"/>
       </div>
 
       {/* Правая колонка с картинкой */}
