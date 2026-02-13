@@ -21,11 +21,11 @@ function Hero() {
         </div>
 
         {/* Контейнер с иконками */}
-        <div className="relative w-[500px] h-[400px] flex justify-center items-center brightness-90 transition-all duration-300 mb-6">
+        <div className="relative w-[600px] h-[600px] flex justify-center items-center brightness-90 transition-all duration-300 mb-6">
           <img
             src={img[0].src}
             alt=""
-            className="absolute w-full h-full object-contain z-1 transition-transform duration-300 ease-in-out hover:scale-110"
+            className="absolute w-[800px] h-[800px] object-cover z-1"
           />
           <img
             src={img[1].src}
