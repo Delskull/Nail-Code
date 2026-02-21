@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./ui/Header/Header";
-import Hero from "./ui/hero/Hero";
-import Story from "./ui/Story/Story";
+import Header from "./components/Header/Header";
+import Hero from "./components/hero/Hero";
+import Story from "./components/Story/Story";
 
 function App() {
   return (

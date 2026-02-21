@@ -3,4 +3,10 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #767676;
+}
+.custom-gray {
+  color: #767676;
+  font-size: 22px;
+  font-weight: 600;
 }
